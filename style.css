@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+   background-color:var(--color-body) ;
+   font-size: 22px;
+
+}
+
+.main{
+   margin: 10px;
+   padding: 20px;
+   background-color:#ffffff;
+   display: flex;
+   margin-top: 10px;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+}
+.center div .fa-spotify {
+   width: 20px;
+   height: 20px;
+}
+
+.facebook{
+   background-color: #3b5998;
+   border-radius: 25px;
+   padding: 12px 20px;
+}
+
+.google{
+   background-color: #ffffff;
+   border-radius: 25px;
+   padding: 12px 20px;
+}
+.center div label {
+      font-size: medium;
+      font-weight:600;
+}
+.center div input{
+   padding: 14px;
+   border-radius: 4px;
+   box-shadow: inset 0 0 0 1px #878787;
+
+
+}
+
+.links{
+   font-size: medium;
+   font-weight: bold;
+}
+.btnDiv{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btnDiv button{
+   background-color: #1fdf64;
+   width: auto;
+   height: auto;
+   border: none;
+   
+   border-radius: 25px;
+   font-size: 14px;
+   padding: 14px 32px;
+}
+.btnDiv button:active {
+   outline: 3px solid black;
+   border: 3px solid #ffffff ;
+}
+
+a {
+   text-decoration: underline;
+}
+
+
+a:link {
+   color: green;
+}
+
+a:visited {
+   color: black;
+}
+
+a:hover {
+   color: orange;
+}
+
+a:active {
+   color: red;
+} 
+
+
+/* @media screen and ( max-width: 768px){ 
+   .center {
+      width: 800px;
+      margin: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;*/
+     
+
+ @media screen and (min-width:300px) {
+   .center{
+      width: fit-content;
+      font-size: 12px;
+      letter-spacing: 2px;
+      margin: 3rem;
+      position: relative;
+   }
+
+   
+ }  
+ 
